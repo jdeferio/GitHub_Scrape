@@ -16,7 +16,7 @@ BACKOFF_TIME = 30
 
 # Establishes the credentials for this study and announces that you will be scraping the site
 
-reddit = praw.Reddit(client_id='[insert_client_id',
+reddit = praw.Reddit(client_id='[insert_client_id]',
                      client_secret = '[insert_user_agent]',
                      user_agent = '[insert_title_of_crawler] (by /u/[insert_user_name])',
                      username = 'username',
