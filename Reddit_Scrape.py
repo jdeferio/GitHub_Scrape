@@ -35,7 +35,7 @@ subs = {1:'BPD', 2:'cripplingalcoholism', 3:'opiates', 4:'suicidewatch', 5:'depr
 
 # ----------------- DATA PULL -----------------------------
 
-# Iterates over list of subs
+# Iterates over dictionary of subreddits (subs)
 for i in subs:
     subreddit = reddit.subreddit(subs[i])
     hot_subreddit = subreddit.hot(limit = 1000)
