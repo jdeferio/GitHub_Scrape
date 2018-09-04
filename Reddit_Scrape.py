@@ -6,12 +6,6 @@ import pandas as pd
 import datetime as dt
 
 
-# ------------------- CONFIGURATION ----------------------------
-
-# Backoff time sets how many minutes to wait between Reddit pings when your API limit is hit
-BACKOFF_TIME = 30
-
-
 # ----------------- AUTHENTICATION -----------------------------
 
 # Establishes the credentials for this study and announces that you will be scraping the site
