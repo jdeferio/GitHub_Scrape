@@ -35,8 +35,8 @@ for i in subs:
     hot_subreddit = subreddit.hot(limit = 1000)
 
     # Set your output file here. The subs[i] will update the file name based on your dictionary position
-    topic_output_filename = '/Users/' + subs[i] + '_topic_reddit.csv'
-    comm_output_filename = '/Users/' + subs[i] + '_comment_reddit.csv'
+    topic_output_filename = f'/Users/{subs[i]}_topic_reddit.csv'
+    comm_output_filename = f'/Users/{subs[i]}_comment_reddit.csv'
 
     for submission in hot_subreddit:
         topics_dict["title"].append(submission.title)
